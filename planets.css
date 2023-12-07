@@ -1,0 +1,22 @@
+.planet {
+    height: 200px; 
+    width: 200px; 
+    border-radius: 100px;
+    /* animation: rotate-planet 10s linear infinite; */
+}
+
+.planet-container {
+    transform: rotate(-24deg)
+}
+
+@keyframes rotate-planet {
+    0% { 
+        transform: rotateZ(0deg);
+    } 
+    50% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
